@@ -1,0 +1,111 @@
+.payment-methods .payment-options {
+  margin-bottom: 2rem;
+}
+.payment-methods .payment-options .payment-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.payment-methods .payment-options .payment-option:hover {
+  border-color: var(--primary-light);
+  background-color: var(--light-gray);
+}
+.payment-methods .payment-options .payment-option.selected {
+  border-color: var(--primary-color);
+  background-color: rgba(45, 90, 39, 0.05);
+}
+.payment-methods .payment-options .payment-option input[type=radio] {
+  margin: 0;
+}
+.payment-methods .payment-options .payment-option .payment-icon {
+  font-size: 1.5rem;
+}
+.payment-methods .payment-options .payment-option span:last-child {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+.payment-methods .payment-form {
+  margin-bottom: 2rem;
+}
+.payment-methods .payment-form .stripe-form .card-element-container {
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  background: var(--white);
+}
+.payment-methods .payment-form .stripe-form .payment-error {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: rgba(220, 53, 69, 0.1);
+  border-radius: var(--border-radius);
+}
+.payment-methods .payment-form .stripe-form .payment-submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.payment-methods .payment-form .google-pay-container .google-pay-btn,
+.payment-methods .payment-form .google-pay-container .upi-pay-btn,
+.payment-methods .payment-form .upi-container .google-pay-btn,
+.payment-methods .payment-form .upi-container .upi-pay-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.payment-methods .payment-form .google-pay-container .form-group,
+.payment-methods .payment-form .upi-container .form-group {
+  margin-bottom: 1rem;
+}
+.payment-methods .payment-form .google-pay-container .form-group label,
+.payment-methods .payment-form .upi-container .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+.payment-methods .payment-form .google-pay-container .form-group .upi-input,
+.payment-methods .payment-form .upi-container .form-group .upi-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-family: var(--font-primary);
+}
+.payment-methods .payment-form .google-pay-container .form-group .upi-input:focus,
+.payment-methods .payment-form .upi-container .form-group .upi-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.1);
+}
+.payment-methods .payment-security {
+  text-align: center;
+}
+.payment-methods .payment-security .security-badges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.payment-methods .payment-security .security-badges .security-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--light-gray);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--border-radius);
+}/*# sourceMappingURL=PaymentMethods.css.map */

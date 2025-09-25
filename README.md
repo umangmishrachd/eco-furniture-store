@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# EcoHome - Sustainable Furniture eCommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, clean, eco-friendly furniture eCommerce website built with React. Features sustainable furniture made in India with recyclable materials and modern designs.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 🌱 Eco-Friendly Focus
+- 100% sustainable and recyclable materials
+- Antifungal treatments for fabrics, plastics, and woods
+- FSC certified wood and eco-friendly manufacturing
+- Made in India initiative supporting local employment
 
-### `npm start`
+### 🛒 eCommerce Functionality
+- Product catalog with filtering and sorting
+- Shopping cart with quantity management
+- Secure checkout process
+- Multiple payment options (Stripe, Google Pay, UPI)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🎨 Modern Design
+- Clean, spacious layout with white background
+- Google Fonts (Poppins & Inter)
+- Flat illustration style
+- Responsive design for all devices
+- No third-party UI libraries (custom CSS/SCSS)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🏭 Made in India
+- Showcasing Indian manufacturing excellence
+- Supporting youth employment
+- Combining imported inspirations with local craftsmanship
+- Displaying certifications (ISO, FSC, etc.)
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React 18, JavaScript (ES6+)
+- **Styling**: SCSS/CSS3, Custom components
+- **Routing**: React Router DOM
+- **State Management**: React Context API
+- **Payment**: Stripe integration, Google Pay support
+- **Icons**: Unicode emojis for lightweight design
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js 16+ and npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository
