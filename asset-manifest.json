@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/eco-furniture-store/static/css/main.52497591.css",
-    "main.js": "/eco-furniture-store/static/js/main.3e5154ad.js",
+    "main.js": "/eco-furniture-store/static/js/main.bee1ca90.js",
     "index.html": "/eco-furniture-store/index.html",
     "main.52497591.css.map": "/eco-furniture-store/static/css/main.52497591.css.map",
-    "main.3e5154ad.js.map": "/eco-furniture-store/static/js/main.3e5154ad.js.map"
+    "main.bee1ca90.js.map": "/eco-furniture-store/static/js/main.bee1ca90.js.map"
   },
   "entrypoints": [
     "static/css/main.52497591.css",
-    "static/js/main.3e5154ad.js"
+    "static/js/main.bee1ca90.js"
   ]
 }
