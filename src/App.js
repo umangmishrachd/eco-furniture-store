@@ -14,7 +14,7 @@ import './styles/global.scss';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/eco-furniture-store">
         <div className="App">
           <Header />
           <main>
