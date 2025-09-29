@@ -1,0 +1,49 @@
+.eco-features {
+  background-color: var(--white);
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  .feature-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow-light);
+    transition: var(--transition);
+    animation: fadeInUp 0.6s ease-out both;
+    border: 1px solid var(--border-color);
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-heavy);
+      border-color: var(--secondary-color);
+    }
+
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    .feature-title {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+
+    .feature-description {
+      color: var(--text-light);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+  }
+}
