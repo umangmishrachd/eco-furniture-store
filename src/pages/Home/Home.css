@@ -1,6 +1,0 @@
-.home {
-  scroll-behavior: smooth;
-}
-.home .section:not(:first-child) {
-  margin-top: 0;
-}/*# sourceMappingURL=Home.css.map */
